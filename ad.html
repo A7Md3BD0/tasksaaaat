@@ -1,0 +1,117 @@
+let f = ["mango", 'apple', 'banana', 'orange',]
+let s = [a, b, c, d] = f;
+console.log(b)
+console.log(c)
+let emp = {
+    name: "ahmed",
+    age: "14",
+    address: "qena",
+    job: "no job :)",
+    salary: (x) => {
+
+        return x * 10
+    }
+}
+
+console.log(emp.name)
+console.log(emp.address)
+
+    
+// // let arr = [1,4,3,4];
+
+// // /////////////destructuring array before es6 //////////
+
+// // // let x = arr[0];
+// // // let y = arr[1];
+// // // let z = arr[2];
+// // // let w = arr[3];
+// // // console.log(x);
+// // // console.log(y);
+// // // console.log(z);
+// // // console.log(w);
+
+// // ////////////////////////////destructuring array in es6 //////////////////////////
+
+// // // let [a,,,d]=arr;
+
+// // // console.log(a)    
+
+// // //    console.log(d);
+// // //    console.log(arr);
+// // ////defult destructuring value in es6 //////////////////////////
+// // // let [a,d=5]=arr;
+// // // console.log(d);
+
+// // /////////////////task/////////////
+// // let f =['mango','apple','banana','orange']
+
+// // //1- catch apple and banana
+// // // 2- catch mango in let (apple , banana, and orange in array) bounse
+
+// /////////////////////////////////// destructuring objects //////////////////////////////////
+
+// /////////////////////////objects////////////////////////////////////////////////////////////////
+
+// // structures of data with key and value
+
+// // looks like the array with key and value
+// //  {key: 'value',key2: 'value2',key3: 'value3}
+// // let emp ={
+// // name:"mohamed gamal",
+// // age:29,
+// // salary:(x)=>x*15,
+// // address:"qena",
+// // id:299595959595
+// // };
+
+// // console.log(emp.salary(100));
+// ///////////////////////destructuring objects before es6////////////
+
+// // let x=emp.name
+// // let y=emp.age  
+// // let z=emp.salary(100)
+// // console.log(x+" "+y+" "+z);
+
+
+// /////////////////destructuring after es6////////////
+// /////way 1 by values////////
+// // let {
+// //     name:fullName,
+// //     age:y,
+// //     address:z,
+// //     salary:s
+// // }=emp
+
+// // console.log(fullName+" "+y+" "+z+" "+s(15));
+
+// /////way 2 by keys////////
+// // let{age,address}=emp;
+
+// // console.log(age+" "+address);
+
+// //////////////task 2 //////////////////
+// //1- a- create an employee obj with name and address and age and salary(function)
+// /// b- job object(title , description )(bonus)
+// //2- destructuring an employee name and address
+// //3- destructuring an job object title and description bonus
+// //4- destructuring all employees values in array.
+
+// ////////////////////// string obj in es6 //////////////////////////
+// //1-startswith 2- endswith 3- include 4- toUpperCase 5- toLowerCas 
+// let Name = "mohAmed gAmal"
+// // let result= Name.toUpperCase();
+// // let result= Name.toLowerCase();
+// // let result= Name.startsWith("mo");// true or false
+// // let result= Name.endsWith("l");// true or false
+// // let result= Name.includes("gA");// true or false
+
+// // console.log(result);
+
+// ////////////////array obj in es6//////////////////
+// //1- find 2-findIndex 3- map 4-filter(search bonus)
+// let arr =[1993,1994,2000,2001,2002,2003,2004,2007]
+// // let result= arr.find((ele)=>{return ele>2000})//2001
+// // let result= arr.findIndex((ele)=>{return ele>2000})//3
+// // let result= arr.map((ele)=>{return 2022-ele})
+// let result= arr.filter((ele)=>{return ele>2000})
+// console.log(result);

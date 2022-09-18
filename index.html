@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//         let myFunction = (a, b) => a * b;
+// let ar = myFunction(4, 5);
+// console.log(ar)
+
+// let myFunctio = (a, b) => a + b;
+// let a = myFunctio(4, 5);
+// console.log(a)
+// /rest param ,defult param
+// function add(fname,lname,...data){
+// console.log(fname)
+// console.log(lname)
+// console.log(data)
+
+// }
+// if(true){
+//     let c=8
+// }
+
+// let x=add(3,6,7,5,6,7,8,9,5,5,7,87,8,9,9,6,6,)
+
+// console.log(c);
+// function myFun(a,  b, ...manyMoreArgs) {
+//   console.log("Name", a);
+//   console.log("Age", b);
+//   console.log("More", manyMoreArgs);
+// }
+
+// myFun("AHAMADA", "15", "16", "17", "18", "19");
+
+
+function showInfo(name= "Un", age = "Un",show = "Yes", ...skills) {
+  document.write(`<div>`);
+  document.write(`<h1>Welcome, ${name}</h1>`);
+  document.write(`<p>Age: ${age}</p>`);
+  if (show === "Yes") {
+    if (skills.length > 0) {
+      document.write(`<h2 style="color:;">Skills: ${skills.join(" - ")}</h3>`);
+    } else {
+      document.write(`<p>Skills: No Skills</p>`);
+    }
+  } else {
+    document.write(`<p>No Skills</p>`);
+  }
+  document.write(`</div>`);
+}
+
+showInfo("Ahmed", 15,  "Yes", "Html", "CSS","Javascript","python","c++");
+
+//////////////////////// task2 ///////////////////////////////
+function su(a,s,d){
+return a+s+d
+}
+const num=[1,2,3,]
+console.log(su(...num))
+//////////////////// task3 ///////////////////////// 
+// let numbers = [10, 20, 30, 40]
+// let sum = 0;
+// for (let i = 0; i < numbers.length; i++) {
+//   sum += numbers[i]
+// }
+// console.log(sum)
+</script>
+</body>
+</html>
